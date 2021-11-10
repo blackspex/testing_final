@@ -5,6 +5,7 @@ s.trackingServer="cardgage.sc.omtrdc.net"
 s.usePlugins=true
 s.doPlugins = function(s) {
 s.campaign= s.Util.getQueryParam("uid")
+s.visitorID = "abc123"
 
 }
 s.linkTrackVars="eVar1,eVar4,eVar5,products,campaign"
